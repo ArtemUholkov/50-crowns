@@ -113,20 +113,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 /*CSS RESET END*/
 
 /*COLOR VARIABLES START*/
 :root {
-  --main-style-color: #d1b06b;
-  --usual-decorations: #ffffff;
-  --speceial-decorations: #4e555f;
-  --usual-bg-color: #161d27;
-  --usual-sub-text-color: #d7d7d7;
-  --sub-bg-color: #3b434e;
-  --sub-dark-bg-color: #1f2732;
-  --sub-text-uncommon-color: #909090;
-  --bg-block-color: #2e3947;
+  --main-bg-color: #21482e;
+  --usual-decorations: #eead44;
+  --main-text-color: #ffffff;
 }
 /*COLOR VARIABLES END*/
 
@@ -134,7 +127,6 @@ table {
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -146,32 +138,4 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-
-.decoration_stripe {
-  height: 2px;
-  background-color: #499100;
-  width: 100%;
-}
-
-h2 {
-  display: block;
-  font-size: 30px;
-  white-space: nowrap;
-}
-
-h3 {
-  display: block;
-  font-size: 25px;
-  white-space: nowrap;
-}
 /*COMMONT STYLES END*/
-@media (max-width: 1400px) {
-  .mycontainer {
-    width: 95%;
-  }
-}
-@media (max-width: 760px) {
-  .mycontainer {
-    width: 95%;
-  }
-}
