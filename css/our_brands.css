@@ -18,7 +18,7 @@ h2 {
 }
 .our_brands_content_info,
 .our_brands_content_windows {
-  width: 50%;
+  max-width: 50%;
 }
 
 .our_brands_content_windows {
@@ -27,7 +27,7 @@ h2 {
   gap: 20px;
 }
 .our_brands_content_windows_printscreen_wrapper {
-  max-width: 552px;
+  width: 552px;
   max-height: 281px;
   border: 1px solid #155939;
   border-radius: 24px;
@@ -37,8 +37,8 @@ h2 {
   width: 100%;
 }
 .our_brands_content_windows_info {
-  max-width: 552px;
-  width: 100%;
+  width: 552px;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -96,23 +96,25 @@ h2 {
 }
 .our_brands_content_info__priorities {
   display: flex;
-  gap: 15px;
 }
 .our_brands_content_info__priorities_titles {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-right: 15px;
 }
 .our_brands_content_info__priorities_title {
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: var(--main-text-color);
+  white-space: nowrap;
 }
 .our_brands_content_info__priorities_parameters {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  white-space: nowrap;
 }
 .our_brands_content_info__priorities_parameter {
   font-weight: 600;
@@ -129,8 +131,142 @@ h2 {
   flex-direction: row;
   gap: 4px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .flag {
   width: 21.33px;
   height: 16px;
+}
+.our_brands_content_info__payments {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.our_brands_content_info__payments_title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 16px;
+  color: var(--main-text-color);
+}
+.our_brands_content_info__payments_items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.our_brands_content_info__payments_item {
+  width: 80px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment_type {
+}
+.visa {
+  width: 51px;
+  height: 17px;
+}
+.mastercard {
+  width: 51px;
+  height: 32px;
+}
+.bank_transfer {
+  width: 68px;
+  height: 40px;
+}
+.skrill {
+  width: 69px;
+  height: 40px;
+}
+.neteller {
+  width: 80px;
+  height: 40px;
+}
+.paysafecard {
+  width: 74px;
+  height: 43px;
+}
+.interac {
+  width: 68px;
+  height: 40px;
+}
+.mifinity {
+  width: 78px;
+  height: 44px;
+}
+.neosurf {
+  width: 63px;
+  height: 30px;
+}
+.btc {
+  width: 68px;
+  height: 40px;
+}
+.etc {
+  width: 68px;
+  height: 40px;
+}
+.ltc {
+  width: 68px;
+  height: 40px;
+}
+.bigx {
+  width: 68px;
+  height: 40px;
+}
+.bigt {
+  width: 68px;
+  height: 40px;
+}
+.bnb {
+  width: 68px;
+  height: 40px;
+}
+@media (max-width: 1160px) {
+  .our_brands_container {
+    width: 90%;
+  }
+}
+@media (max-width: 1100px) {
+  .our_brands_container {
+    width: 77.66%;
+  }
+  .our_brands_content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .our_brands_content_info,
+  .our_brands_content_windows {
+    max-width: 100%;
+    width: 100%;
+  }
+  .our_brands_content_windows_printscreen_wrapper {
+    width: 100%;
+  }
+  .our_brands_content_windows_info {
+    width: 100%;
+  }
+}
+@media (max-width: 580px) {
+  .our_brands_container {
+    width: 94%;
+  }
+}
+@media (max-width: 465px) {
+  .move-down {
+    margin-top: 20px;
+  }
+  .our_brands_content_info__priorities_parameters {
+    white-space: normal;
+  }
+}
+@media (max-width: 418px) {
+  .move-down-lang {
+    margin-top: 15px;
+  }
 }
