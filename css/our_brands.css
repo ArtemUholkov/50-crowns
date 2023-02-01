@@ -94,3 +94,43 @@ h2 {
   color: #ffd200;
   text-decoration: none;
 }
+.our_brands_content_info__priorities {
+  display: flex;
+  gap: 15px;
+}
+.our_brands_content_info__priorities_titles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.our_brands_content_info__priorities_title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+}
+.our_brands_content_info__priorities_parameters {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.our_brands_content_info__priorities_parameter {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-text-color);
+}
+.our_brands_content_info__priorities_parameter-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+.our_brands_content_info__priorities_parameter_flags_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+}
+.flag {
+  width: 21.33px;
+  height: 16px;
+}
