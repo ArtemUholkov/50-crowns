@@ -131,7 +131,7 @@ h2 {
   flex-direction: row;
   gap: 4px;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .flag {
   width: 21.33px;
@@ -250,6 +250,9 @@ h2 {
   }
   .our_brands_content_windows_info {
     width: 100%;
+  }
+  .our_brands_content_info__priorities_parameter_flags_wrapper {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 580px) {
