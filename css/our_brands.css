@@ -125,6 +125,11 @@ h2 {
 .our_brands_content_info__priorities_parameter-link {
   text-decoration: none;
   color: var(--main-text-color);
+  transition: all 0.5s;
+}
+.our_brands_content_info__priorities_parameter-link:hover {
+  color: rgba(255, 255, 255, 0.76);
+  transition: all 0.5s;
 }
 .our_brands_content_info__priorities_parameter_flags_wrapper {
   display: flex;
