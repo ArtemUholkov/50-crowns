@@ -2,11 +2,13 @@ header {
   background-color: var(--main-bg-color);
   width: 100%;
   height: 64px;
+  position: fixed;
+  max-width: 1440px;
+  z-index: 99;
 }
 .header_wrapper {
-  width: 77.66%;
   height: 100%;
-  margin: 0 auto;
+
   display: flex;
   align-items: center;
 }
@@ -115,8 +117,8 @@ header {
   background-color: var(--usual-decorations);
 }
 .fill_button:hover {
-  background-color: rgb(211, 151, 39);
-  border-color: rgb(211, 151, 39);
+  background-color: rgb(177, 130, 43);
+  border-color: rgb(177, 130, 43);
   color: black;
 }
 
@@ -141,12 +143,12 @@ header {
   }
 
   .burger_space {
-    padding: 0 20px;
+    padding: 10px 10px;
     cursor: pointer;
   }
 
   .logo_wrapper {
-    padding: 10px 30px;
+    padding: 10px 10px;
   }
 
   .popup {

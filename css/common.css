@@ -132,12 +132,21 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  position: relative;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  z-index: 2;
 }
-/* .mycontainer {
-  width: 80%;
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 63px;
+  color: var(--main-text-color);
+}
+.mycontainer {
+  width: 77.66%;
   margin: 0 auto;
-} */
+}
 /*COMMONT STYLES END*/

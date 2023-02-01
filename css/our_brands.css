@@ -1,0 +1,96 @@
+.our_brands {
+  width: 100%;
+  background-color: var(--sub-bg-color);
+  padding: 50px 0px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--main-text-color);
+  margin-bottom: 32px;
+}
+.our_brands_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.our_brands_content_info,
+.our_brands_content_windows {
+  width: 50%;
+}
+
+.our_brands_content_windows {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.our_brands_content_windows_printscreen_wrapper {
+  max-width: 552px;
+  max-height: 281px;
+  border: 1px solid #155939;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.our_brands_content_windows_printscreen {
+  width: 100%;
+}
+.our_brands_content_windows_info {
+  max-width: 552px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #155939;
+  border-radius: 24px;
+  padding: 32px 28px 49px;
+}
+.our_brands_content_windows_info__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--main-text-color);
+}
+.our_brands_content_windows_info__text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--main-text-color);
+  line-height: 16px;
+}
+.our_brands_content_info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.our_brands_content_info__logo-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.our_brands_content_info__logo-text_logo_wrapper {
+  height: 54px;
+  width: 54px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our_brands_content_info__logo-text_title_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+.our_brands_content_info__logo-text_title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: var(--main-text-color);
+}
+.our_brands_content_info__logo-text_subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffd200;
+  text-decoration: none;
+}
