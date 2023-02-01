@@ -4,56 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="" type="image/x-icon" />
-    <title>Bildex Solutions</title>
+    <link rel="icon" href="img/our-brands/flags/50-crowns_logo.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Orbitron:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>50 CROWNS</title>
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <header>
       <div class="header_wrapper">
-        <div class="mycontainer header_container">
-          <nav class="navbar">
-            <div class="wrap_togather_logo_number">
-              <div class="logo_wrapper">
-                <a href="#" class="logo_combo"
-                  ><img
-                    class="logo_img"
-                    src="img/header/newlogo-modified.png"
-                    alt="Bildex Solutions Logo" />
-                  <img
-                    class="logo_text"
-                    src="img/header/newtext-modified.png"
-                    alt="Bildex Solutions text name"
-                /></a>
-              </div>
-              <a class="phone_call" href="tel:+16473033571">
-                <i class="fa fa-phone phone_number_icon"></i>
-                <span class="phone_text">+1 647-303-3571</span>
-              </a>
-              <button
-                type="button"
-                class="btn btn-primary header_button"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Get a call
-              </button>
+        <nav class="navbar">
+          <div class="wrap_togather_logo_number">
+            <a href="#" class="logo_wrapper">
+              <img src="img/header/main-logo.png" alt="logo" class="main-logo" />
+            </a>
+          </div>
+          <ul class="navbar_menu">
+            <li><a class="nav_elem" href="#">Brands</a></li>
+            <li><a class="nav_elem" href="#">Advantages</a></li>
+            <li><a class="nav_elem" href="#">Testimonials</a></li>
+            <li><a class="nav_elem" href="#">Contacts</a></li>
+            <li><a class="nav_elem" href="#">Terms and Conditions</a></li>
+            <li><a class="nav_elem" href="#">Privacy Policy</a></li>
+          </ul>
+          <div class="header_button_pair">
+            <button class="main_button">Sign in</button>
+            <button class="main_button fill_button">Sign Up</button>
+          </div>
+          <div class="burger">
+            <div class="burger_space" id="burger">
+              <span class="stick"></span>
+              <span class="stick"></span>
+              <span class="stick"></span>
             </div>
-            <ul class="navbar_menu">
-              <li><a class="nav_elem" href="#">Home</a></li>
-              <li><a class="nav_elem" href="#about_us">Window Wells</a></li>
-              <li><a class="nav_elem" href="#window_wells">Features</a></li>
-              <li><a class="nav_elem" href="#models">Models</a></li>
-              <li><a class="nav_elem" href="#contact">Contact</a></li>
+          </div>
+        </nav>
+        <div class="popup" id="popup">
+          <div class="popup_textblock" id="popupSlide">
+            <ul class="navbar_menu_mobile">
+              <li><a class="nav_elem_mobile" href="#">Brands</a></li>
+              <li><a class="nav_elem_mobile" href="#">Advantages</a></li>
+              <li><a class="nav_elem_mobile" href="#">Testimonials</a></li>
+              <li><a class="nav_elem_mobile" href="#">Contacts</a></li>
+              <li><a class="nav_elem_mobile" href="#">Terms and Conditions</a></li>
+              <li><a class="nav_elem_mobile" href="#">Privacy Policy</a></li>
+              <div class="header_button_pair mob_menu_buttons">
+                <button class="main_button mob_menu_button button_background_change">
+                  Sign in
+                </button>
+                <button class="main_button fill_button mob_menu_button">Sign Up</button>
+              </div>
             </ul>
-            <div class="burger">
-              <div class="burger_space" id="burger">
-                <span class="stick"></span>
-                <span class="stick"></span>
-                <span class="stick"></span>
-              </div>
-            </div>
-          </nav>
+          </div>
         </div>
       </div>
     </header>
