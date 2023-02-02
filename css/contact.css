@@ -1,0 +1,97 @@
+.contacts {
+  background-color: var(--sub-bg-color);
+  padding-bottom: 80px;
+}
+
+.contacts_socials_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.contacts_socials_link {
+  text-decoration: none;
+}
+.contacts_socials_img {
+  width: 60px;
+  height: 60px;
+}
+.contacts_persons_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.contacts_persons_pair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+.contacts_person {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  padding-bottom: 20px;
+}
+.contacts_person_info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.contacts_person_info_name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--main-text-color);
+}
+.contacts_person_info_position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contacts_person_links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.contact_person_link {
+  text-decoration: none;
+}
+.contact_person_links_icon {
+  width: 24px;
+  height: 24px;
+}
+.underline-add {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+@media (max-width: 740px) {
+  .contacts_container {
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .contacts_container {
+    width: 95%;
+  }
+  .contacts_persons_wrapper {
+    gap: 10px;
+  }
+}
+@media (max-width: 606px) {
+  .contacts_persons_pair {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contacts_person {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  .contacts_persons_wrapper {
+    gap: 20px;
+  }
+  .contacts_socials_wrapper {
+    margin-bottom: 40px;
+  }
+}
