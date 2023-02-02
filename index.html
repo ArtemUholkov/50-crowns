@@ -11,6 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Orbitron:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Slider-swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Slider-swiper -->
     <title>50 CROWNS</title>
     <link rel="stylesheet" href="css/index.css" />
   </head>
@@ -419,7 +422,74 @@
         </div>
       </div>
     </section>
+    <section class="testimonials">
+      <div class="mycontainer">
+        <h2 class="middle_title">TESTIMONIALS</h2>
+      </div>
+      <div class="testimonials_slider">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonials_slider_logo_wrapper">
+                <img src="img/testimonials/content-logo.png" alt="jungli win logo" />
+              </div>
+              <p class="testimonials_slider_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco lab
+              </p>
+              <a class="testimonials_slider_link" href="http://jungliwin.io/">jungliwin.io</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials_slider_logo_wrapper">
+                <img
+                  class="testimonials_slider_logo"
+                  src="img/testimonials/content-logo.png"
+                  alt="jungli win logo"
+                />
+              </div>
+              <p class="testimonials_slider_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco lab
+              </p>
+              <a class="testimonials_slider_link" href="http://jungliwin.io/">jungliwin.io</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonials_slider_logo_wrapper">
+                <img src="img/testimonials/content-logo.png" alt="jungli win logo" />
+              </div>
+              <p class="testimonials_slider_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco lab
+              </p>
+              <a class="testimonials_slider_link" href="http://jungliwin.io/">jungliwin.io</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
     <footer></footer>
     <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    </script>
+    <!-- Initialize Swiper -->
   </body>
 </html>
