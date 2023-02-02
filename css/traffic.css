@@ -1,0 +1,30 @@
+.traffic {
+  background-color: var(--sub-bg-color);
+}
+
+.traffic_content_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.traffic_content_item {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: var(--main-text-color);
+  position: relative;
+}
+.traffic_content_item::after {
+  content: '';
+  position: absolute;
+  display: block;
+  background-color: #fcd48e;
+  width: 165px;
+  height: 1px;
+  top: 26px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
