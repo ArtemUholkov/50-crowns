@@ -17,7 +17,15 @@
   line-height: 27px;
   color: var(--main-text-color);
   position: relative;
+  text-decoration: none;
+  transition: all 0.5s;
+  z-index: 99;
 }
+.traffic_content_item:hover {
+  color: rgba(255, 255, 255, 0.479);
+  transition: all 0.5s;
+}
+
 .traffic_content_item::after {
   content: '';
   position: absolute;
