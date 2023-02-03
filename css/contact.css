@@ -69,6 +69,25 @@
 .underline-add {
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
+svg {
+  width: 24px;
+  height: 24px;
+}
+path {
+  transition: all 0.5s;
+}
+svg:hover path:nth-of-type(1) {
+  fill: #ffdc41;
+  fill-opacity: 1;
+  stroke: none;
+  transition: all 0.5s;
+}
+svg:hover path:nth-of-type(2) {
+  fill: none;
+  stroke: #ffdc41;
+  stroke-opacity: 1;
+  transition: all 0.5s;
+}
 @media (max-width: 740px) {
   .contacts_container {
     width: 90%;
