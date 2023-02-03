@@ -1,15 +1,30 @@
 .affiliate {
   background: linear-gradient(180deg, #275038 0%, rgba(39, 80, 56, 0) 84.9%);
   background-color: var(--sub-bg-color);
-  padding-bottom: 55px;
+  padding-bottom: 50px;
+  position: relative;
 }
-
+.affiliate-left-nest {
+  position: absolute;
+  top: -174px;
+  left: 0;
+  z-index: 5;
+  opacity: 0.5;
+}
+.affiliate-right-nest {
+  position: absolute;
+  top: -341px;
+  right: 0px;
+  z-index: 5;
+  opacity: 0.5;
+}
 .affiliate_content_wrapper,
 .affiliate_group2,
 .affiliate_group3 {
   display: flex;
   justify-content: center;
   gap: 24px;
+  z-index: 99;
 }
 .affiliate_content_item {
   display: flex;
@@ -56,6 +71,12 @@
   }
   .affiliate_content_wrapper {
     gap: 10px;
+  }
+  .affiliate-left-nest {
+    display: none;
+  }
+  .affiliate-right-nest {
+    display: none;
   }
 }
 

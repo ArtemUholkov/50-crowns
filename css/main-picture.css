@@ -61,10 +61,11 @@
 .main_picture__content_subtitle {
   font-size: 20px;
   line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
   color: var(--main-text-color);
   max-width: 502px;
   margin-bottom: 40px;
-  font-weight: ;
 }
 .main_picture__content_registration_button {
   width: 264px;

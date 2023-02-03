@@ -7,6 +7,9 @@
   padding-top: 55px;
   text-align: center;
 }
+.our_brands_title {
+  padding-top: 30px;
+}
 .benefits_content {
   display: flex;
   align-items: center;
@@ -42,7 +45,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 0px 30px;
+  padding: 0px 16px 0px 37px;
 }
 .benefits_content_item_text {
   color: rgba(255, 255, 255, 0.7);
@@ -55,7 +58,7 @@
 }
 li:before {
   content: '·';
-  font-size: 30px;
+  font-size: 21px;
   vertical-align: middle;
   line-height: 30px;
   position: absolute;
@@ -78,5 +81,19 @@ li:before {
   .benefits_content_item {
     height: auto;
     padding-bottom: 32px;
+  }
+}
+@media (max-width: 428px) {
+  .our_brands_title {
+    text-align: left;
+  }
+  .benefints_container {
+    width: 91%;
+  }
+  .middle_title {
+    padding-top: 30px;
+  }
+  .benefits_content {
+    padding-bottom: 50px;
   }
 }

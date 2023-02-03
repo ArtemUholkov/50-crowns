@@ -2,7 +2,9 @@
   background-color: var(--sub-bg-color);
   padding-bottom: 80px;
 }
-
+.contacts_title {
+  margin-bottom: 44px;
+}
 .contacts_socials_wrapper {
   display: flex;
   align-items: center;
@@ -74,19 +76,22 @@
 }
 @media (max-width: 650px) {
   .contacts_container {
-    width: 95%;
+    width: 91%;
   }
   .contacts_persons_wrapper {
     gap: 10px;
   }
 }
-@media (max-width: 606px) {
+@media (max-width: 630px) {
   .contacts_persons_pair {
     flex-direction: column;
     gap: 20px;
+    width: 100%;
   }
   .contacts_person {
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    justify-content: space-between;
+    width: 100%;
   }
   .contacts_persons_wrapper {
     gap: 20px;

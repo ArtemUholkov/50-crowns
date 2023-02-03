@@ -1,7 +1,9 @@
 .traffic {
   background-color: var(--sub-bg-color);
 }
-
+.traffic_title {
+  margin-bottom: 44px;
+}
 .traffic_content_wrapper {
   display: flex;
   flex-direction: column;
@@ -23,7 +25,7 @@
   background-color: #fcd48e;
   width: 165px;
   height: 1px;
-  top: 28px;
+  top: 30px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);

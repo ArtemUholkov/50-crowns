@@ -28,13 +28,15 @@ h2 {
 }
 .our_brands_content_windows_printscreen_wrapper {
   width: 552px;
-  max-height: 281px;
+  height: auto;
+
   border: 1px solid #155939;
   border-radius: 24px;
   overflow: hidden;
 }
 .our_brands_content_windows_printscreen {
   width: 100%;
+  object-fit: cover;
 }
 .our_brands_content_windows_info {
   width: 552px;
@@ -136,7 +138,8 @@ h2 {
   flex-direction: row;
   gap: 4px;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  max-width: 300px;
 }
 .flag {
   width: 21.33px;
@@ -230,6 +233,9 @@ h2 {
   width: 68px;
   height: 40px;
 }
+.move-down {
+  margin-top: 20px;
+}
 @media (max-width: 1160px) {
   .our_brands_container {
     width: 90%;
@@ -252,6 +258,7 @@ h2 {
   }
   .our_brands_content_windows_printscreen_wrapper {
     width: 100%;
+    object-fit: cover;
   }
   .our_brands_content_windows_info {
     width: 100%;
@@ -262,19 +269,25 @@ h2 {
 }
 @media (max-width: 580px) {
   .our_brands_container {
-    width: 94%;
+    width: 90%;
   }
 }
 @media (max-width: 465px) {
-  .move-down {
-    margin-top: 20px;
-  }
   .our_brands_content_info__priorities_parameters {
     white-space: normal;
   }
+  .our_brands_content_windows_info {
+    padding: 20px 16px;
+    gap: 12px;
+  }
 }
-@media (max-width: 418px) {
+@media (max-width: 437px) {
   .move-down-lang {
     margin-top: 15px;
+  }
+}
+@media (max-width: 373px) {
+  .our_brands_content_info__payments_item {
+    width: 76px;
   }
 }
