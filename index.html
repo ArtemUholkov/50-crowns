@@ -14,14 +14,14 @@
     <!-- Slider-swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Slider-swiper -->
-    <title>50 CROWNS</title>
+    <title>50-partners</title>
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <header>
       <div class="header_wrapper mycontainer">
         <nav class="navbar">
-          <a href="#" class="logo_wrapper">
+          <a href="index.html" class="logo_wrapper">
             <img src="img/header/main-logo.png" alt="logo" class="main-logo" />
           </a>
 
@@ -30,8 +30,8 @@
             <li><p class="nav_elem" href="#" onclick="scrollToAdvantages()">Advantages</p></li>
             <li><p class="nav_elem" href="#" onclick="scrollToTestimonials()">Testimonials</p></li>
             <li><p class="nav_elem" href="#" onclick="scrollToContacts()">Contacts</p></li>
-            <li><p class="nav_elem" href="#">Terms and Conditions</p></li>
-            <li><p class="nav_elem" href="#">Privacy Policy</p></li>
+            <li><a class="nav_elem" href="terms-and-conditions.html">Terms and Conditions</a></li>
+            <li><a class="nav_elem" href="privacy-policy.html">Privacy Policy</a></li>
           </ul>
           <div class="header_button_pair">
             <button class="main_button">Sign in</button>
@@ -48,12 +48,18 @@
         <div class="popup" id="popup">
           <div class="popup_textblock" id="popupSlide">
             <ul class="navbar_menu_mobile">
-              <li><a class="nav_elem_mobile" href="#">Brands</a></li>
-              <li><a class="nav_elem_mobile" href="#">Advantages</a></li>
-              <li><a class="nav_elem_mobile" href="#">Testimonials</a></li>
-              <li><a class="nav_elem_mobile" href="#">Contacts</a></li>
-              <li><a class="nav_elem_mobile" href="#">Terms and Conditions</a></li>
-              <li><a class="nav_elem_mobile" href="#">Privacy Policy</a></li>
+              <li><p class="nav_elem_mobile" href="" onclick="scrollToBrands()">Brands</p></li>
+              <li>
+                <p class="nav_elem_mobile" href="" onclick="scrollToAdvantages()">Advantages</p>
+              </li>
+              <li>
+                <p class="nav_elem_mobile" href="" onclick="scrollToTestimonials()">Testimonials</p>
+              </li>
+              <li><p class="nav_elem_mobile" href="" onclick="scrollToContacts()">Contacts</p></li>
+              <li>
+                <a class="nav_elem_mobile" href="terms-and-conditions.html">Terms and Conditions</a>
+              </li>
+              <li><a class="nav_elem_mobile" href="privacy-policy.html">Privacy Policy</a></li>
               <div class="header_button_pair mob_menu_buttons">
                 <button class="main_button mob_menu_button button_background_change">
                   Sign in
