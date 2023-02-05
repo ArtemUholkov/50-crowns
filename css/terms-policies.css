@@ -1,24 +1,28 @@
-.terms {
+.terms-pol {
   width: 100%;
   background-color: var(--sub-bg-color);
   padding-top: 128px;
 }
-.terms_container {
-  width: 78.26%;
+.terms-pol_container {
+  width: 78.27%;
   margin: 0 auto;
   padding-bottom: 72px;
 }
-.term_title {
+
+.term-pol_title {
   margin-bottom: 44px;
 }
-.terms_text_wrapper {
+.terms-pol_text_wrapper {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: var(--main-text-color);
 }
+.policy_text_wrapper {
+  font-weight: 700;
+}
 
-.terms_list {
+.terms-pol_list {
   list-style-type: decimal;
   list-style-position: inside;
   font-weight: 400;
@@ -26,19 +30,19 @@
   line-height: 20px;
   color: var(--main-text-color);
 }
-.terms_list_item {
+.terms-pol_list_item {
   padding-left: 5px;
 }
 .terms_list_item_text {
 }
 @media (max-width: 600px) {
-  .terms_container {
+  .terms-pol_container {
     width: 90.8%;
   }
-  .terms {
+  .terms-pol {
     padding-top: 124px;
   }
-  .term_title {
+  .term-pol_title {
     margin-bottom: 40px;
   }
 }

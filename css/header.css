@@ -336,3 +336,16 @@ header {
     display: flex;
   }
 }
+@media (max-height: 620px) {
+  .mob_menu_buttons {
+    margin-top: 20px;
+  }
+}
+@media (max-height: 560px) {
+  .mob_menu_buttons {
+    margin-top: 20px;
+  }
+  .nav_elem_mobile {
+    padding: 12px;
+  }
+}
