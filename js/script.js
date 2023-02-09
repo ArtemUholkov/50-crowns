@@ -52,3 +52,21 @@ function scrollToTestimonials() {
 function scrollToContacts() {
   document.querySelector('#contacts').scrollIntoView(true);
 }
+let copiedText = document.querySelectorAll('#trythis');
+copiedText.forEach((elem) => elem.addEventListener('click', () => copyText(elem)));
+
+function copyText(elem) {
+  console.log(elem);
+  navigator.clipboard.writeText(elem.getAttribute('data-clipboard-text'));
+  console.log(elem.children);
+  for (let i = 0; i < elem.children.length; i++) {
+    if (elem.children[i].nodeName.toLowerCase() == 'span') {
+      elem.children[i].classList.add('showup');
+      elem.children[i].classList.remove('copied_hidden');
+      setTimeout(() => {
+        elem.children[i].classList.remove('showup');
+        elem.children[i].classList.add('copied_hidden');
+      }, 1000);
+    }
+  }
+}

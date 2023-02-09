@@ -61,6 +61,22 @@
 }
 .contact_person_link {
   text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+.copied_hidden {
+  display: none;
+}
+.showup {
+  position: absolute;
+  top: -150%;
+  left: -460%;
+  width: 150px;
+  padding: 5px 5px;
+  background-color: #ffdc41;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
 }
 .contact_person_links_icon {
   width: 24px;
