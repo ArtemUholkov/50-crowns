@@ -33,6 +33,11 @@ footer {
   font-size: 14px;
   line-height: 16px;
 }
+@media (max-width: 1160px) {
+  .footer_container {
+    width: 95%;
+  }
+}
 @media (max-width: 610px) {
   .footer_container {
     width: 95%;

@@ -266,6 +266,9 @@ h2 {
   .our_brands_content_info__priorities_parameter_flags_wrapper {
     flex-wrap: wrap;
   }
+  .our_brands_content_windows {
+    gap: 40px;
+  }
 }
 @media (max-width: 580px) {
   .our_brands_container {

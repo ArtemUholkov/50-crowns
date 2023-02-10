@@ -269,7 +269,10 @@ header {
     }
   }
   .header_button_pair {
-    gap: 40px;
+    display: none;
+  }
+  .mob_menu_buttons {
+    display: flex;
   }
 }
 
