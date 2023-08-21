@@ -25,7 +25,7 @@ I used HTML, CSS, JS in this project.
 3. Slider. I used SwiperSlider in this project.
    Connected using CDN.
 
-   ![slider](slider.png)
+![slider](slider.png)
 
 ```
  <script>
