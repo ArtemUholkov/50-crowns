@@ -1,6 +1,6 @@
 # 50-crowns (real order)
 
-###[Here you can check it](https://artemuholkov.github.io/50-crowns/)
+[Here you can check it](https://artemuholkov.github.io/50-crowns/)
 
 ---
 
